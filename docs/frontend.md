@@ -4,6 +4,10 @@
 **Port:** 3000  
 **API base:** `NEXT_PUBLIC_API_URL=http://localhost:5000`
 
+## Why Next.js
+
+Recipe pages are server-side rendered (SSR) so that search engines can index the full content — title, ingredients, and description — at crawl time. This is the primary SEO requirement: when a user searches for a recipe on Google, the page must already contain the markup without waiting for client-side JavaScript to run.
+
 ## Pages
 
 ```
