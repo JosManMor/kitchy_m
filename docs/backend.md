@@ -1,8 +1,9 @@
 # Backend — Express.js API
 
 **Port:** 5000  
-**Entry point:** `server/src/index.js`  
-**Module system:** ES Modules — `"type": "module"` en `server/package.json`, extensiones `.js` obligatorias en imports locales
+**Language:** TypeScript — compiled with `tsc`, source in `server/src/`, output in `server/dist/`  
+**Entry point:** `server/src/index.ts`  
+**Module system:** ES Modules — `"type": "module"` in `server/package.json`, `.js` extensions required in local imports (TypeScript emits `.js`)
 
 ## Folder structure
 
@@ -10,10 +11,11 @@
 server/src/
 ├── config/        # DB connection, env validation
 ├── controllers/   # Route handler logic (no business logic in routes)
-├── middleware/    # auth.js, errorHandler.js, upload.js (multer)
+├── middleware/    # auth.ts, errorHandler.ts, upload.ts (multer)
 ├── models/        # Mongoose schemas
 ├── routes/        # Express routers mounted on /api
-└── index.js
+├── types/         # Shared TypeScript interfaces and type augmentations
+└── index.ts
 ```
 
 ## API endpoints

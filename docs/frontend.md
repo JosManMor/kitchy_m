@@ -1,6 +1,7 @@
 # Frontend — Next.js
 
 **Framework:** Next.js 14 (App Router)  
+**Language:** TypeScript — strict mode enabled  
 **Port:** 3000  
 **API base:** `NEXT_PUBLIC_API_URL=http://localhost:5000`
 
