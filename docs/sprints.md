@@ -12,17 +12,18 @@
 
 ---
 
-## Sprint 1 — Base Setup
+## Sprint 1 — Base Setup ✓
 
 **Goal:** project running in Docker with MongoDB connection.  
+**Branch:** `feat/base-setup`  
 **Recommended agent:** `voltagent-core-dev:backend-developer`
 
-- Folder structure for `server/` and `client/`
-- `docker-compose.yml` with mongo, server, and client services
-- `server/package.json` with `"type": "module"` and base dependencies
-- Mongoose connection in `config/db.js`
-- Base Express app with `errorHandler` and health check `GET /api/health`
-- Environment variables (`.env`)
+- [x] Folder structure for `server/` and `client/`
+- [x] `docker-compose.yml` with mongo, server, and client services
+- [x] `server/package.json` with `"type": "module"`, TypeScript, and base dependencies
+- [x] Mongoose connection in `src/config/db.ts`
+- [x] Base Express app with `errorHandler` and health check `GET /api/health`
+- [x] Environment variables (`.env.example`)
 
 ---
 
